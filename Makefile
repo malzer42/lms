@@ -66,7 +66,7 @@ CODE1    = # -march=pentium
 CFLAGS =  ${OPTIMIZE} ${DEBUG}  ${WARNINGS} ${BOUNDS} ${PROFILE} \
           ${FLOAT0}   ${FLOAT1} ${FLOAT2}   ${CODE0}  ${CODE1} ${FAST}
 # CC = gcc-3.3 -Wno-deprecated # -fguiding-decls
-CC = g++-6 -std=c++1z -Wno-deprecated # -fguiding-decls
+CC = g++-13 -std=c++17 -Wno-deprecated # -fguiding-decls
 O  = .o
 
 %.o: %.cpp
